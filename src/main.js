@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import iView from 'iview' // 导入组件库  
+import 'iview/dist/styles/iview.css' // 导入样式  
 Vue.config.productionTip = false
-
+import axios from 'axios'
+import "babel-polyfill"
+Vue.prototype.$http = axios
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
