@@ -11,7 +11,12 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+<<<<<<< HEAD
     "iview": "^1.0.1",
+=======
+    "babel-polyfill": "^6.26.0",
+    "iview": "^2.7.4",
+>>>>>>> e1eaead4395bd9a7f8f64cdc5d1b85cbae288fef
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
